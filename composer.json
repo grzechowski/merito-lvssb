@@ -1,0 +1,45 @@
+{
+    "name": "grzechowski/merito-lvssb",
+    "description": "Merito Laravel VUE SaaS SPA Bundle",
+    "keywords": ["grzechowski", "laravel", "vue", "saas", "spa"],
+    "license": "MIT",
+    "homepage": "https://github.com/grzechowski/merito-lvssb",
+    "support": {
+        "issues": "https://github.com/grzechowski/merito-lvssb/issues",
+        "source": "https://github.com/grzechowski/merito-lvssb"
+    },
+    "authors": [
+        {
+            "name": "Tomek Grzechowski",
+            "homepage": "https://github.com/yodahack"
+        }
+    ],
+    "require": {
+        "php": ">=7.4"
+    },
+    "autoload": {
+        "files": [
+        ],
+        "psr-4": {
+            "Grzechowski\\merito-lvssb\\": "src/Grzechowski/merito-lvssb/",
+            "Grzechowski\\merito-lvssb\\Commands\\": "src/Grzechowski/merito-lvssb/commands/"
+        }
+    },
+    "extra": {
+        "branch-alias": {
+            "dev": "dev"
+        },
+        "laravel": {
+            "providers": [
+                "Grzechowski\\merito-lvssb\\MeritoLvssbServiceProvider"
+            ]
+        }
+    },
+    "suggest": {
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
