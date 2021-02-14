@@ -21,8 +21,8 @@
         "files": [
         ],
         "psr-4": {
-            "Grzechowski\\merito-lvssb\\": "src/Grzechowski/merito-lvssb/",
-            "Grzechowski\\merito-lvssb\\Commands\\": "src/Grzechowski/merito-lvssb/commands/"
+            "Grzechowski\\MeritoLvssb\\": "src/Grzechowski/merito-lvssb/",
+            "Grzechowski\\MeritoLvssb\\Commands\\": "src/Grzechowski/merito-lvssb/commands/"
         }
     },
     "extra": {
@@ -31,7 +31,7 @@
         },
         "laravel": {
             "providers": [
-                "Grzechowski\\merito-lvssb\\MeritoLvssbServiceProvider"
+                "Grzechowski\\MeritoLvssb\\MeritoLvssbServiceProvider"
             ]
         }
     },
