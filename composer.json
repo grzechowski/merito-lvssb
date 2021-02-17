@@ -21,8 +21,7 @@
         "files": [
         ],
         "psr-4": {
-            "Grzechowski\\MeritoLvssb\\": "src/Grzechowski/merito-lvssb/",
-            "Grzechowski\\MeritoLvssb\\Commands\\": "src/Grzechowski/merito-lvssb/commands/"
+            "Grzechowski\\MeritoLvssb\\": "src"
         }
     },
     "extra": {
